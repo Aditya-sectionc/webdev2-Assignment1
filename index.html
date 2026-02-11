@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Event Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+<h1>🎯 Smart Event Dashboard</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Add New Event</h3>
+        <form>
+
+        <input type="text" id="title" placeholder="Event Title">
+
+        <input type="date" id="date">
+
+        <select id="category">
+            <option value="Conference">Conference</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Meetup">Meetup</option>
+        </select>
+
+        <textarea id="description" placeholder="Description"></textarea>
+
+        <button onclick="addEvent()">Add Event</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>My Events</h3>
+
+        <div class="btn-group">
+            <button onclick="clearEvents()">Clear All Events</button>
+            <button onclick="addSampleEvents()">Add Sample Events</button>
+        </div>
+
+        <div id="eventList">
+            <p id="emptyMessage">No events yet. Add your first event!</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="card full-width">
+    <h3>DOM Manipulation Demo</h3>
+    <p id="keyDisplay">You Pressed: None</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

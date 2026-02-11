@@ -1,0 +1,62 @@
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #5db9b3, #7fd1c9);
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .full-width {
+            margin: 20px;
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #5db9b3;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #4aa8a1;
+        }
+
+        .event-item {
+            background: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+        }
